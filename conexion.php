@@ -1,8 +1,8 @@
 <?php
-$host = '127.0.0.1';
-$usuario = 'root';
-$password = '';
-$nombre_base_de_datos = 'proyecto';
+$host = '185.27.134.127';
+$usuario = 'if0_36932245';
+$password = 'OFHwzKY3eBZM';
+$nombre_base_de_datos = 'if0_36932245_proyecto';
 $puerto = '3306';
 
 
