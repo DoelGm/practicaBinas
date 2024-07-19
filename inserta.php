@@ -16,12 +16,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($conn->query($inserta) === TRUE) {
         echo "<script language='javascript'> alert ('PRODUCTO REGISTRADO CON EXITO ')</script>";
         echo "<style> body { background-color: #c0d8f7; } </style>";
-        header ("refresh:1;url=inserta.html");
+        header ("refresh:1;url=inserta.php");
         mysqli_close($conn);  
   } else {
       echo "<script language='javascript'> alert ('NO SE HA ENVIADO INFORMACION')</script>";
       echo "<style> body { background-color: #c0d8f7; } </style>";
-        header ("refresh:1;url=inserta.html");
+        header ("refresh:1;url=inserta.php");
   }
 }
 ?>
