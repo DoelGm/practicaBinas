@@ -1,5 +1,5 @@
 <?php
-$host = '185.27.134.127';
+$host = 'sql104.infinityfree.com';
 $usuario = 'if0_36932245';
 $password = 'OFHwzKY3eBZM';
 $nombre_base_de_datos = 'if0_36932245_proyecto';
