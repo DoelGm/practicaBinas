@@ -23,5 +23,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       echo "<style> body { background-color: #c0d8f7; } </style>";
         header ("refresh:1;url=inserta.php");
   }
+}else{
+  echo 'Pendejo jajajaja';
 }
+
 ?>
